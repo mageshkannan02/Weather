@@ -1,0 +1,71 @@
+ 
+ body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+ }
+ .container{
+  
+  display: flex;
+  width: 450px;
+  height:730px;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  flex-direction: column;
+  border-radius: 10px;
+  gap: 5px;
+  padding: 10px 0px 10px 0px;
+ }
+ .inputContainer{
+   padding: 10px;
+   margin: 30px;
+  display: flex;
+   width: 80%;
+   border: 2px solid black;
+   border-radius: 5px;
+  align-items: center;
+  height: 30px;
+ }
+ .inputContainer  img{
+  
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+ }
+ .inputContainer input{
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 100%;
+
+ }
+ .temp,.calc{
+   margin-left: 20px;
+  display: flex;
+   gap: 250px;
+ }
+ .part1{
+   display: flex;
+   flex-direction: column;
+    
+   
+ }
+ .icons{
+   width: 70px;
+   height: 70px;
+
+ }
+ .images{
+   display: flex;
+   justify-content: center;
+ }
+ .images img{
+   width: 200px;
+   height: 200px;
+
+ }
+ .location{
+   text-align: center;
+ }
+    
